@@ -1674,3 +1674,78 @@ h1 {
     letter-spacing: 8px;
 }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+  body {
+    font-size: 18px;
+  }
+  #lyrics {
+    font-size: 20px;
+    margin-bottom: 8%;
+  }
+  .flowers {
+    transform: scale(1.1);
+  }
+  .titulo {
+    margin-bottom: 140px;
+    font-size: 22px;
+    letter-spacing: 6px;
+  }
+}
+
+/* Xiaomi Mi 9, Redmi Note 8 y otros Xiaomi comunes (360x720px) */
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  body {
+    font-size: 16px;
+  }
+  #lyrics {
+    font-size: 18px;
+    margin-bottom: 15%;
+  }
+  .flowers {
+    transform: scale(0.95);
+  }
+  .titulo {
+    margin-bottom: 160px;
+    font-size: 19px;
+    letter-spacing: 7px;
+  }
+}
+
+/* Xiaomi Mi 11 y dispositivos con pantallas más grandes (480x960px) */
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  body {
+    font-size: 17px;
+  }
+  #lyrics {
+    font-size: 20px;
+    margin-bottom: 10%;
+  }
+  .flowers {
+    transform: scale(1);
+  }
+  .titulo {
+    margin-bottom: 150px;
+    font-size: 20px;
+    letter-spacing: 8px;
+  }
+}
+
+/* Ajustes generales para pantallas grandes (iPad y dispositivos similares) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  #lyrics {
+    font-size: 22px;
+    margin-bottom: 5%;
+  }
+  .flowers {
+    transform: scale(1.2);
+  }
+  .titulo {
+    margin-bottom: 140px;
+    font-size: 24px;
+    letter-spacing: 10px;
+  }
+}
